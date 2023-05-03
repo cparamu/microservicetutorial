@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: confiservice
+          uri: https://github.com/cparamu/microservicetutorial
+          search-paths: config-data
+  application:
+    name: config-service
