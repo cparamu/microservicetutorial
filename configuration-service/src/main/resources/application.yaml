@@ -9,4 +9,4 @@ spring:
           uri: https://github.com/cparamu/microservicetutorial
           search-paths: config-data
   application:
-    name: config-service
+    name: configuration-service
